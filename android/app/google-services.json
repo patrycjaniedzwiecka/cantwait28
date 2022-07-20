@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629421288701",
+    "project_id": "cantwait9494",
+    "storage_bucket": "cantwait9494.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629421288701:android:e50ff039beeea66714a294",
+        "android_client_info": {
+          "package_name": "com.patrycjaniedzwiecka.cantwait28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629421288701-2ceg7qc8bel1a7o8hp44qlmmc2cc5v4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDbZld0g0f3Ay3Oczyhets_kOxK1z3i60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629421288701-2ceg7qc8bel1a7o8hp44qlmmc2cc5v4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

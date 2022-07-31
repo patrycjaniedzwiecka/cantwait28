@@ -1,4 +1,5 @@
 import 'package:cantwait28/features/add/page/add_page.dart';
+import 'package:cantwait28/features/auth/pages/user_profile.dart';
 import 'package:cantwait28/features/details/pages/details_page.dart';
 import 'package:cantwait28/features/home/cubit/home_cubit.dart';
 import 'package:cantwait28/models/item_model.dart';
@@ -14,9 +15,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Can\'t Wait 🤩'),
-      ),
+      appBar: AppBar(title: const Text('Can\'t Wait 🤩'), actions: [
+        IconButton(
+          onPressed: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => const UserProfile(),
+              ),
+            );
+          },
+          icon: const Icon(Icons.person),
+        ),
+      ]),
       body: const _HomePageBody(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
